@@ -18,3 +18,18 @@ Tính năng chính của React là:
 - khả năng reUseable/ composable UI component.
 
 ### 3. What is JSX? JSX là gì? 
+JSX is a XML-like syntax exntension to ECMAScript (the acronym stands for JavaScript XML). Basically it just provides syntactic sugar for the React.createElement() function, giving us expressiveness of JavaScript along with HTML like template syntax.
+
+JSX là một cú pháp mở rộng của JavaScript nó cho phép người dùng có thể lồng code HTML vào trong đó. Nó được đề nghị dùng trong React để mô tả UI và nó có toàn bộ sức mạnh của JavaScript.
+
+```python
+class App extends React.Component {
+  render(){
+    return (
+      <div>
+        <h1> {'Hello React JS '} </h1>
+      </div>
+    );
+  }
+}
+```
